@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _111_1PC1
-{
-
-
-    public partial class Test
-    {
-
+namespace _111_1PC1 {
+    
+    
+    public partial class Test {
+        
         /// <summary>
         /// form1 控制項。
         /// </summary>

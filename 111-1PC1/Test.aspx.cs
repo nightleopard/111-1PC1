@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace _111_1PC1
 {
-    public partial class Test : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            Response.Write("Hello App");
-        }
-    }
+	public partial class Test : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			Response.Write("Hello App");
+		}
+	}
 }
