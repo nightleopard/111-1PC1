@@ -15,16 +15,18 @@
 
 ## 說明程式與內容
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```csharp 程式碼 ``` `，
-下段程式碼則為使用後結果：
+輸出文字"Hello App"
 
 ```csharp
-public void mt_getResult(){
-    ...
+namespace _111_1PC1
+{
+	public partial class Test : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			Response.Write("Hello App");
+		}
+	}
 }
 ```
 
@@ -38,7 +40,7 @@ public void mt_getResult(){
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" ...>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
 <body>
@@ -53,6 +55,4 @@ public void mt_getResult(){
 
 ## 個人認為完成作業須具備觀念
 
-開始寫說明，需要說明本次作業個人覺得需學會那些觀念 (需寫成文章，需最少50字，
-並且文內不得有你、我、他三種文字)
-
+此次練習對於作業一有很大的幫助，能夠加深對於程式語言的認知，讓作業可以更順利的弄出來，也在之後的作業可以更快捷的製作。
